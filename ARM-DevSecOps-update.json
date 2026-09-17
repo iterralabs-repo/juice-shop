@@ -91,11 +91,11 @@
         "name": "[parameters('appServicePlanName')]",
         "location": "[parameters('location')]",
         "sku": {
-          "tier": "Premium1V3",
-          "name": "P1v3",
-          "family": "Pv3",
-          "capacity": 2,
-          "size": "P1v3"
+          "tier": "Basic",
+          "name": "B2",
+          "family": "B",
+          "capacity": 1,
+          "size": "B2"
         },
         "kind": "linux",
         "properties": {
